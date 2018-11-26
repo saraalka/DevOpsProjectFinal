@@ -17,3 +17,5 @@ https://hellokoding.com/registration-and-login-example-with-spring-security-spri
 
 ## Run
 ```mvn clean spring-boot:run```
+
+Try me
