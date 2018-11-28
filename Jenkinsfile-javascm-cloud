@@ -43,7 +43,7 @@ pipeline {
         }
         stage('Deployments: Instantiating A Container From the Docker Image') { 
             steps {
-                 sh "kubectl run devops-web-cluster --image=gcr.io/test-220275285/devops-app:v1 --port=8080"
+                 sh "kubectl run devops-web-cluster --image=gcr.io/test-220275285/devops-app:v1 --port=8081"
             }
         }
         stage('Services: Expose application to External traffic') { 
